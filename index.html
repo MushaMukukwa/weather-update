@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Southern Province 5 day Weather Forecast</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div id="language-selector">
+            <label for="languages">Choose a language:</label>
+            <select id="languages">
+                <option value="en">English</option>
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+            </select>
+        </div>
+        <div id="header-center">
+            <h1>Southern Province 5-Day Weather Forecast</h1>
+            <div id="current-time"></div>
+        </div>
+        <div id="search-city">
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button id="search-button">Search</button>
+        </div>
+    </header>
+    <main>
+        <div id="location"></div>
+        <div id="current-weather">
+            <div id="current-temperature"></div>
+            <div id="weather-condition"></div>
+            <div id="humidity"></div>
+            <div id="wind-speed"></div>
+            <img id="weather-icon" alt="Weather Icon">
+        </div>
+        <div id="weather-container">
+            <div class="day-forecast"></div>
+            <div class="day-forecast"></div>
+            <div class="day-forecast"></div>
+            <div class="day-forecast"></div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="http://www.icuzambia.net">ICU Zambia</a></li>
+            <li><a href="https://www.zrdc.org">ZRDC</a></li>
+        </ul>
+        <span class="copyright">Ward Name. All Rights Reserved. Designed and Maintained By Musha Mukukwa, SIN: 2206497246</span>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
